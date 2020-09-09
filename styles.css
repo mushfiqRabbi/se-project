@@ -1,0 +1,25 @@
+body {
+    background-color:#2b2b2b;
+}
+#bar {
+    background:#1f1f1f;
+    margin: 1em 3em;
+    /* padding-bottom: px;
+    border-color: #1f1f1f;
+    border-bottom-style: solid ;
+    border-bottom-width: 0.5px; */
+
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+#logo {
+    font-family: 'Pacifico', cursive;
+    color: red;
+    margin-left: 1em;
+   
+   
+}
