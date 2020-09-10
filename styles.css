@@ -1,25 +1,38 @@
 body {
-    background-color:#2b2b2b;
-}
-#bar {
-    background:#1f1f1f;
-    margin: 1em 3em;
-    /* padding-bottom: px;
-    border-color: #1f1f1f;
-    border-bottom-style: solid ;
-    border-bottom-width: 0.5px; */
-
+    margin: 0;
 }
 
-a {
-    text-decoration: none;
-    color: red;
+.top-bar {
+    background-color: lightblue;
+    height: 7vh;
+    overflow: hidden;
+    
 }
 
 #logo {
+    display: inline-block;
     font-family: 'Pacifico', cursive;
-    color: red;
-    margin-left: 1em;
-   
-   
+    font-size: 1.7em;
+    margin-left: 1vw;
+    margin-right: 80vw;
+    margin-top: .5vh;
+    overflow: hidden;
+    
+}
+
+#sign-in {
+    display: inline-block;
+    font-size: 1.2em;
+    overflow: hidden;
+    margin-bottom: 1.5vh ;
+    margin-right: 2vw;
+    border: 1px solid wheat;
+    padding: .5em;
+}
+
+#sign-up {
+    display: inline-block;
+    font-size: 1.2em;
+    overflow: hidden;
+    margin-bottom: 1.5vh;
 }
