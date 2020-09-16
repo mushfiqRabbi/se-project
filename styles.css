@@ -12,6 +12,8 @@
     display: inline-block;
     background-color: var(--dark);
     width: 100%;
+    position: fixed;
+    margin: 0;
 }
 
 li {
@@ -36,7 +38,7 @@ a {
     display: inherit;
 }
 
-div {
+.ham {
     padding: 1px 10px;
     background-color: white;
     margin: 3px 0;
