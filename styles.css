@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: black;
+}
+
 :root {
     --dark: #303030;
 }
@@ -14,6 +18,8 @@
     width: 100%;
     position: fixed;
     margin: 0;
+    top: 0;
+    overflow: auto;
 }
 
 li {
@@ -50,4 +56,36 @@ a {
 
 .home:hover, .sign-in:hover, .sign-up:hover {
     background-color: rgb(68, 68, 68);
+}
+
+.big-container {
+    display: block;
+    float: left;
+    width: 70%;
+    /* background-color: blue; */
+
+}
+
+.trailer-big {
+    display: inherit;
+    margin: 100px;
+
+}
+
+.small-container {
+    display: block;
+    float: right;
+    width: 30%;
+    /* background-color: red; */
+    height: 600px;
+    overflow: hidden;
+    margin-top: 100px;
+
+}
+
+.trailer-small {
+
+    display: inherit;
+   margin-right: 300px;
+   margin-top: 75px;
 }
