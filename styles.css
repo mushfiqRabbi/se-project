@@ -33,8 +33,6 @@ a {
 
 .menu {
     display: inherit;
-    /* background-color: red; */
-    /* background-color: green; */
 }
 
 div {
@@ -45,5 +43,8 @@ div {
 
 .home {
     margin-left: 20px;
-    background-color: red;
+}
+
+.home:hover, .sign-in:hover, .sign-up:hover {
+    background-color: rgb(68, 68, 68);
 }
