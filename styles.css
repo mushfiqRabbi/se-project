@@ -1,63 +1,26 @@
-body {
+* {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    padding: 0;
 }
 
-.ul {
-    background-color: teal;
-    margin: 0;
+html {
+    height: 100%;
     width: 100%;
-    height: auto;
-    display: flex;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
 }
 
-.menu {
-    /* margin-left: 2vw; */
-    font-size: 1.1em;
-    margin-right: auto;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+body {
+    height: 100%;
+    width: 100%;
 }
 
-#logo {
-    margin-right: auto;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 2.2em;
+.container {
+    display: inline-block;
+    background-color: lightblue;
+    width: 100%;
 }
 
-.sign-in {
-    margin-right: 3vw;
-    font-size: 1.1em;
-    margin-right: 0;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.sign-up {
-    margin-right: 4vw;
-    font-size: 1.1em;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.menu:hover {
-    background-color:#008f8f ;
-}
-
-.sign-in:hover {
-    background-color:#008f8f ;
-}
-
-.sign-up:hover {
-    background-color:#008f8f ;
+ul > li {
+    display: inherit;
+    width: auto;
+    float: right;
 }
