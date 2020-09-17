@@ -23,6 +23,8 @@ body {
     overflow: auto;
 }
 
+
+
 li {
     display: inline-block;
     padding: 7px 13px;
@@ -39,7 +41,7 @@ a {
 .sign-in, .sign-up {
     float: right;
     margin-top: 11px;
-    margin-right: 200px;
+    margin-right: 13vw;
 }
 
 .menu {
@@ -53,18 +55,31 @@ a {
 }
 
 .home {
-    margin-left: 200px;
+    margin-left: 13vw;
+    float: left;
+}
+
+.logo {
+    display: inherit;
+    /* background-color: red; */
+    color: red;
+    margin: 0 25vw;
+    float: left;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2em;
+    padding: 0;
 }
 
 .home:hover, .sign-in:hover, .sign-up:hover {
-    background-color: rgb(68, 68, 68);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .big-container {
     display: block;
     float: left;
     width: auto;
-    margin: 75px 5px 5px 200px;
+    margin: 75px 0 5px 13vw;
     /* background-color: blue; */
 
 }
@@ -82,7 +97,7 @@ a {
     height: 600px;
     overflow: scroll;
 
-    margin: 75px 200px 5px 0;
+    margin: 75px 13vw 5px 0;
     /* background-color: red; */
     background-color: #141414;
 
