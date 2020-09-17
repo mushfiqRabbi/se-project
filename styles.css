@@ -8,6 +8,8 @@ body {
     background-color: black;
 }
 
+
+
 :root {
     --dark: #303030;
 }
@@ -17,7 +19,6 @@ body {
     background-color: var(--dark);
     width: 100%;
     position: fixed;
-    margin: 0;
     top: 0;
     overflow: auto;
 }
@@ -38,6 +39,7 @@ a {
 .sign-in, .sign-up {
     float: right;
     margin-top: 11px;
+    margin-right: 200px;
 }
 
 .menu {
@@ -51,7 +53,7 @@ a {
 }
 
 .home {
-    margin-left: 20px;
+    margin-left: 200px;
 }
 
 .home:hover, .sign-in:hover, .sign-up:hover {
@@ -61,31 +63,39 @@ a {
 .big-container {
     display: block;
     float: left;
-    width: 70%;
+    width: auto;
+    margin: 100px 5px 5px 200px;
     /* background-color: blue; */
 
 }
 
 .trailer-big {
     display: inherit;
-    margin: 100px;
 
 }
 
 .small-container {
     display: block;
     float: right;
-    width: 30%;
+    width: auto;
     /* background-color: red; */
     height: 600px;
-    overflow: hidden;
-    margin-top: 100px;
+    overflow: scroll;
 
+    margin: 100px 200px 5px 0;
+    /* background-color: red; */
+    background-color: #141414;
+
+
+}
+
+.small-container::-webkit-scrollbar {
+    display: none;
 }
 
 .trailer-small {
 
     display: inherit;
-   margin-right: 300px;
-   margin-top: 75px;
+    margin: 10px 10px ;
+
 }
